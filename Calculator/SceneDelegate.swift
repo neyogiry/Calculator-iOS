@@ -19,7 +19,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         // Setup
-//        setupView()
         setupView(windowScene: windowScene)
     }
 
@@ -52,14 +51,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
     
     // MARK: Private methods
-    
-//    private func setupView() {
-//        window = UIWindow(frame: UIScreen.main.bounds)
-//        let vc = HomeViewController()
-//        window?.rootViewController = vc
-//        window?.makeKeyAndVisible()
-//    }
-    
+        
     private func setupView(windowScene: UIWindowScene) {
         window = UIWindow(windowScene: windowScene)
         let vc = HomeViewController()
