@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1E2C4C66266FDD84001F7319 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2C4C64266FDD84001F7319 /* HomeViewController.swift */; };
 		1E2C4C67266FDD84001F7319 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E2C4C65266FDD84001F7319 /* HomeViewController.xib */; };
-		1E5919872677AF5700CC40BC /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5919862677AF5700CC40BC /* UIButtonExtension.swift */; };
+		1E5919872677AF5700CC40BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5919862677AF5700CC40BC /* Extensions.swift */; };
 		1EF632B1266AF6D7004522C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF632B0266AF6D7004522C4 /* AppDelegate.swift */; };
 		1EF632B3266AF6D7004522C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF632B2266AF6D7004522C4 /* SceneDelegate.swift */; };
 		1EF632BA266AF6D7004522C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EF632B9266AF6D7004522C4 /* Assets.xcassets */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		1E2C4C64266FDD84001F7319 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1E2C4C65266FDD84001F7319 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		1E5919862677AF5700CC40BC /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		1E5919862677AF5700CC40BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1EF632AD266AF6D7004522C4 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EF632B0266AF6D7004522C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EF632B2266AF6D7004522C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		1E2C4C5F266FD541001F7319 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				1E5919862677AF5700CC40BC /* UIButtonExtension.swift */,
+				1E5919862677AF5700CC40BC /* Extensions.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EF632B1266AF6D7004522C4 /* AppDelegate.swift in Sources */,
-				1E5919872677AF5700CC40BC /* UIButtonExtension.swift in Sources */,
+				1E5919872677AF5700CC40BC /* Extensions.swift in Sources */,
 				1EF632B3266AF6D7004522C4 /* SceneDelegate.swift in Sources */,
 				1E2C4C66266FDD84001F7319 /* HomeViewController.swift in Sources */,
 			);

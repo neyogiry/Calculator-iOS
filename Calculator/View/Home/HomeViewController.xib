@@ -361,8 +361,11 @@
                         </stackView>
                     </subviews>
                 </stackView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bzv-4w-RYl">
-                    <rect key="frame" x="20" y="210" width="374" height="119.5"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="Bzv-4w-RYl">
+                    <rect key="frame" x="20" y="249.5" width="374" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="fcc-7h-FGq"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="100"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
@@ -376,6 +379,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="kPH-yD-obR" secondAttribute="bottom" constant="20" id="ICW-Z5-Czd"/>
                 <constraint firstItem="kPH-yD-obR" firstAttribute="top" secondItem="Bzv-4w-RYl" secondAttribute="bottom" constant="40" id="OvN-1w-ZFc"/>
                 <constraint firstItem="Bzv-4w-RYl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="dVb-A1-Iz1"/>
+                <constraint firstItem="Bzv-4w-RYl" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="60" id="uZZ-NT-dOQ"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kPH-yD-obR" secondAttribute="trailing" constant="20" id="zfx-qm-PrF"/>
             </constraints>
             <point key="canvasLocation" x="132" y="132"/>
